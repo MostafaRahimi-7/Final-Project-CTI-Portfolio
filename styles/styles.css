@@ -60,20 +60,11 @@ li {
 
 .showcase {
   height: 100vh;
+  background-image: url(../img/showcase.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-.showcase-img{
-  height: inherit;
-  width: 100%;
-}
-
-@media (max-width:562px){
-  .showcase-img{
-    height: 100%;
-    width: 100%;
-  }
-}
-
 
 .top-content-span {
   color: #18d26e;
