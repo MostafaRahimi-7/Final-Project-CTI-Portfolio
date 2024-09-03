@@ -246,3 +246,72 @@ li {
   }
 }
 
+
+
+/* Features Section */
+
+.features{
+  background-color: #000;
+}
+
+.features-custom{
+  background-color: #232222;
+  padding: 1rem 0;
+  border: 1px solid #676363;
+}
+
+.features-custom:hover{
+  border-width: 2px;
+  border-color: #14b55f !important;
+  cursor: pointer;
+  transition: all 400ms ease-in;
+}
+
+.features-custom:hover h3 a{
+  color: #18d26e !important;
+  transition: all 400ms ease-in;
+}
+
+
+
+
+
+
+
+/* -----------------------------Resume page styles------------------------ */
+
+.resume{
+  background-color: #000;
+}
+
+.resume-suedo{
+  position: relative;
+  margin-left: 1rem;
+}
+
+.resume-circle-suedo{
+  position: relative;
+  margin-left: 1rem;
+}
+
+.resume-circle-suedo::before{
+  content: "";
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  position: absolute;
+  top: 1.3rem;
+  left: -1.4rem;
+  background-color: #000;
+  border: 3px solid #18d26e;
+}
+
+.resume-suedo::before{
+  content: "";
+  position: absolute;
+  left: -1rem;
+  top: 0;
+  border-left: 3px solid #18d26e;
+  height: 100%;
+}
+
