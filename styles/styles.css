@@ -60,7 +60,7 @@ li {
 
 .showcase {
   height: 100vh;
-  background-image: url(../img/showcase.jpg);
+  background: url(../img/showcase.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
