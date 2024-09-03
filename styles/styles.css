@@ -183,7 +183,6 @@ li {
 /* Personal infromation section */
 
 .pesonal-information{
-  height: 90vh;
   background-color: #000;
 }
 
@@ -191,3 +190,59 @@ li {
   height: 100%;
   width: 100%;
 }
+
+@media (max-width:556px){
+  .personal-information-img{
+    height: 90%;
+    width: 90%;
+  }
+}
+
+.custom-icons{
+  color: #18d26e;
+}
+
+
+
+
+/* About page skill section */
+
+.skills{
+  background-color: #000;
+}
+
+.skill-suedo-line{
+  position: relative;
+  color: #767070;
+}
+
+.skill-suedo-line::after{
+  content: "";
+  position: absolute;
+  border-bottom: 3px solid #14b55f;
+  height: 100%;
+  width: 100%;
+}
+
+.skills .progress .skill{
+  margin-bottom: 20px;
+}
+
+.progress-height{
+  height: 10px !important;
+}
+
+
+.animation-progress{
+  animation: progress-animation 1s ease-in-out forwards;
+}
+
+@keyframes progress-animation{
+  from{
+    width: 0;
+  }
+  to{
+    width: 100;
+  }
+}
+
