@@ -9,7 +9,7 @@ h2,
 h3,
 h4,
 h5,
-p {
+p{
   color: #ffffff;
 }
 
@@ -47,6 +47,10 @@ li {
   color: #18d26e !important;
   border-bottom: 2px solid #18d26e;
   transition: 0.5s;
+}
+
+.default-active{
+  color: #18d26e;
 }
 
 .toggler-button {
@@ -315,3 +319,58 @@ li {
   height: 100%;
 }
 
+
+
+/* -------------------- Services Page Styles------------------------ */
+
+.service-content{
+  background-color: #000;
+}
+
+.content-custom-style{
+  background-color: #232222;
+}
+
+.content-custom-style:hover{
+  background-color: #18d26e;
+  color: #000;
+  transition: all 0.5s ease-in;
+  cursor: pointer;
+}
+
+.content-custom-style:hover p{
+  color: #000 !important;
+  transition: all 0.5s ease-in;
+  cursor: pointer;
+}
+
+.services-icons{
+  color: #18d26e;
+}
+
+.content-custom-style:hover .services-icons{
+  color: #000 !important;
+  transition: all 0.5s ease-in;
+  cursor: pointer;
+}
+
+
+/* -------------------- Portfolio Page Styles------------------------ */
+
+.products{
+  background-color: #000;
+}
+
+.products img{
+  height: 100%;
+  width: 100%;
+}
+
+.card-custom{
+  background-color: #000 !important;
+}
+
+.card-custom:hover{
+  transition: all 0.4s ease-in;
+  transform: scale(1.1);
+}
