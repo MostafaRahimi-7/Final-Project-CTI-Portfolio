@@ -67,7 +67,6 @@ li {
 /* Main */
 
 .showcase {
-  position: relative;
   height: 100vh;
   background: url(../img/showcase.jpg);
   background-position: center;
@@ -75,15 +74,18 @@ li {
   background-size: cover;
 }
 
+.showcase-all-content{
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10%;
+}
+
 .top-content-span {
   color: #18d26e;
 }
 
-.main-content-top {
-  position: absolute;
-  top: 35%;
-  left: 10%;
-}
 
 .content-top-animation {
   animation: content-top-animation 1s ease-in forwards;
@@ -107,11 +109,6 @@ li {
   }
 }
 
-.main-social-media {
-  position: absolute;
-  top: 55%;
-  left: 10%;
-}
 
 .social-media-hover{
   padding: 1rem 1rem;
