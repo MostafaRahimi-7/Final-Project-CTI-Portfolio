@@ -13,6 +13,10 @@ p{
   color: #ffffff;
 }
 
+p{
+  margin-bottom: 0 !important;
+}
+
 a {
   text-decoration: none !important;
   color: white !important;
@@ -50,7 +54,7 @@ li {
 }
 
 .default-active{
-  color: #18d26e;
+  color: #18d26e !important;
 }
 
 .toggler-button {
@@ -112,10 +116,6 @@ li {
   color: #18d26e;
   transition: all 0.5s;
   transform: scale(1.5) rotate(360deg);
-}
-
-.footer {
-  height: 47vh;
 }
 
 .wrapper .dynamic-typing {
