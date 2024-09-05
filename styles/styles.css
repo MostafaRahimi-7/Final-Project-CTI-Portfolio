@@ -374,3 +374,36 @@ li {
   transition: all 0.4s ease-in;
   transform: scale(1.1);
 }
+
+
+/* -------------------- Contact Us Page Styles------------------------ */
+
+
+.contact{
+  background-color: #000;
+}
+
+.contact-icons{
+  color: black;
+  background-color: #18d26e;
+}
+
+.form-inputs{
+  background-color: #000 !important;
+  border: 1px solid grey !important;
+}
+.form-inputs:focus{
+  box-shadow: 0.1rem 0.1rem 0.5rem #18d26e !important;
+}
+
+.form-inputs::placeholder{
+  color: grey !important;
+}
+
+.form-button{
+  background-color: #18d26e !important;
+}
+
+.form-button:hover{
+  background-color: #1a9a56 !important;
+}
