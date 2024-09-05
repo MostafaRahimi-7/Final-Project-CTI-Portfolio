@@ -113,6 +113,10 @@ li {
   left: 10%;
 }
 
+.social-media-hover{
+  padding: 1rem 1rem;
+}
+
 .social-media-hover:hover {
   color: #18d26e;
   transition: all 0.5s;
